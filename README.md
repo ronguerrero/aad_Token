@@ -8,9 +8,9 @@ The process flow is a follows:
  * retrieve an authorization code (which will allows us to request an access token). It will launch a browser via the Selenium python module.
  * retrieve the access token and refresh token from AAD
  * the refresh token will be persisted to a local file - .refresh_token
- * the refresh token will be used to get renewed access token without having to retrieve and authorization code (logging into AAD).
+ * the refresh token will be used to get a renewed access token without having to retrieve an authorization code (i.e. logging into AAD).
  *
- * future runs of the program will leverage .refresh_token file, using it's contents to get an updated access token
+ * future runs of the program will leverage the .refresh_token file, using it's contents to get an updated access token
 
 # Getting Started  
 
