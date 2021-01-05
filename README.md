@@ -14,6 +14,12 @@ The process flow is a follows:
 
 # Getting Started  
 
+Included is a conda environment yaml file.  Ensure conda is installed and run the following to create the environment:
+```
+conda env create -f environment.yml
+conda activate aad-token
+```
+
 Refer to this link for more information: https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/aad/app-aad-token  
 * Fill out the detail in config.ini.  
     * tenant = your azure tenant id
